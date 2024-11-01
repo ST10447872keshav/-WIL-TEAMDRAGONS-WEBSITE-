@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Minding Course - Empowering the Nation</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        /* Header and Navigation Styling */
+        header {
+            background-color: #34495e;
+            color: #fff;
+            padding: 15px;
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        /* Child Minding Section Styling */
+        .childminding {
+            padding: 50px;
+            text-align: center;
+            background-color: #ecf0f1;
+        }
+
+        .childminding h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .childminding h2 {
+            font-size: 2em;
+            margin-top: 30px;
+        }
+
+        .childminding p, .childminding ul {
+            margin: 0 auto;
+            width: 70%;
+            text-align: left;
+        }
+
+        .childminding ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #1abc9c;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #e67e22;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #d35400;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .childminding p, .childminding ul {
+                width: 90%;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div style="text-align: center;">
+                <img src="_images/logo.png" alt="Logo" style="width: 100px; height: auto;">
+            </div>
+            Empowering the Nation
+        </div>
+
+         <!-- Header and Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--childminding details section-->
+    <section class="childminding">
+        <h2>Child Minding Course</h2>
+        <img src="_images/child_minding_page.jpeg" alt="Child Minding Course" width="300" height="200">
+        <p>Our Child Minding course equips you with skills to provide exceptional care for children. You’ll learn about child development, safety protocols, nutrition, and engaging activities to support learning and growth.</p>
+        <p>By the end, you’ll be prepared to make a meaningful impact on the children you care for, ensuring they thrive under your guidance.</p>
+        <button onclick="goBack()" class="cta-button">Go Back</button>
+    </section>
+
+    <footer>
+        <p>© 2024 Empowering the Nation. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
